@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class PrefixToPostfixConversion {
+public class PrefixToInfixConversion {
     public static void main(String[] args) {
         String str ="*+PQ-MN";
         Stack<String> st = new Stack<>();
