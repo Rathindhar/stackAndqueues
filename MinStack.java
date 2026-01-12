@@ -1,5 +1,6 @@
+import java.util.Stack;
 
-    class MinStack {
+class MinStack {
     private Stack<Long> s;
     private long mini;
     public MinStack() {
