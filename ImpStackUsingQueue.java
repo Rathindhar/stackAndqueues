@@ -1,11 +1,12 @@
 import java.util.ArrayDeque;
 
+
 class ImpStackUsingQueue {
-        ArrayDeque<Integer> stack = new ArrayDeque<>();
+        ArrayDeque<Integer> stack;
         //Queue<Integer> stack = new LinkedList<>();
 
-    public MyStack() {
-        //Queue<Integer> stack = new LinkedList<>();
+    public void MyStack() {
+        stack = new ArrayDeque<>();
     }
     
     public void push(int x) {
