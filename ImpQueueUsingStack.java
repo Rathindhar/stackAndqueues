@@ -1,9 +1,13 @@
-class ImpQueueUsingStack {
-    Stack<Integer> s1 = new Stack<>();
-    Stack<Integer> s2 = new Stack<>();
+import java.util.Stack;
 
-    public MyQueue() {
-        
+class ImpQueueUsingStack {
+    Stack<Integer> s1 ;
+    Stack<Integer> s2;
+
+    public void  MyQueue() {
+        s1 = new Stack<>();
+        s2 = new Stack<>();
+
     }
     
     public void push(int x) {
